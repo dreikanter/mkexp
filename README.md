@@ -3,9 +3,9 @@
 Create date-prefixed directories for projects, experiments, research, and other artifacts.
 
 ```
-mkx my new project        # creates ~/.src/20260328_my-new-project and cds in
+mkx my new project        # creates ~/src/20260328_my-new-project and cds in
 mkx --git --readme        # with git repo and README
-mkx                       # random name, e.g. ~/.src/20260328_silent-river
+mkx                       # random name, e.g. ~/src/20260328_silent-river
 ```
 
 ## Install
@@ -25,7 +25,7 @@ eval "$(mkexp init)"
 Set a default base directory in `~/.zshenv`:
 
 ```zsh
-export MKEXP_PATH=$HOME/.src
+export MKEXP_PATH=$HOME/src
 ```
 
 ## Usage
