@@ -12,7 +12,7 @@ var Version = "dev"
 
 var rootCmd = &cobra.Command{
 	Use:     "mkexp",
-	Short:   "Create date-prefixed directories for experiments and projects",
+	Short:   "Create date-prefixed directories with unique names",
 	Long:    "mkexp creates date-prefixed directories for projects, experiments, research, and other artifacts.",
 	Version: Version,
 }
