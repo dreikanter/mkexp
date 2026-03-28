@@ -14,9 +14,6 @@ func Slugify(text string) string {
 	s := strings.ToLower(text)
 	s = nonAlphanumeric.ReplaceAllString(s, "-")
 	s = strings.Trim(s, "-")
-	for strings.Contains(s, "--") {
-		s = strings.ReplaceAll(s, "--", "-")
-	}
 	return s
 }
 
