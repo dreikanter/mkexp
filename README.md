@@ -1,6 +1,6 @@
 # mkexp
 
-Create date-prefixed experiment directories from the command line.
+Create date-prefixed directories for projects, experiments, research, and other artifacts.
 
 ```
 mkx my new project        # creates ~/.src/20260328_my-new-project and cds in
